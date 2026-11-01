@@ -5,215 +5,228 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producent Wieszaków i Szpul - Dolny Śląsk</title>
     <link rel="icon" type="image/x-icon" href="/static/favicon.png">
-    <meta name="description" content="Produkcja wieszaków i szpul z tworzyw z recyklingu. Zakład w Błażkowej koło Lubawki. Kontakt: +48 504 639 001.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta name="description"
+          content="Produkcja wieszaków i szpul z tworzyw z recyklingu. Zakład w Błażkowej koło Lubawki. Kontakt: +48 504 639 001.">
+    <link rel="stylesheet" href="/output.css">
     <link rel="canonical" href="https://olplast-produkcja.pl/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <style>
         html {
             scroll-behavior: smooth;
         }
     </style>
 </head>
-<body style="background-color: rgb(245, 245, 252);">
-    <div class="toast-container position-fixed bottom-0 end-0 p-3">
-        <div class="toast show">
-            <div class="toast-header">
-                <b class="me-auto">Masz pytania?</b>
-                <button type="button" class="d-flex btn-close justify-content-end" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body fs-">
-                Zapraszam do kontaktu - chętnie pomogę!<br>
-                Grzegorz Szczepaniak <br>
-                Telefon: <b>+48 504 639 001</b> <br>
-                Email: <b>olplast@vp.pl</b>
-            </div>
-        </div>
+<body class="bg-gray-900 text-white" style="font-family: 'JetBrains Mono'">
+
+<nav class="sticky top-0 shadow bg-blue-950/80 backdrop-blur-xl px-4 sm:px-0">
+    <div class="container flex flex-wrap sm:w-vw-80 mx-auto py-5 justify-start sm:justify-around">
+        <a class="text-5xl font-extrabold" href="#">OLPLAST</a>
+        <ul class="flex text-xl items-bottom mt-2">
+            <li class="me-3">
+                <a class=" text-xl hover:font-bold ease-in-out duration-300" href="#wieszaki">wieszaki</a>
+            </li>
+            <li class="me-3">
+                <a class="font-light text-xl hover:font-bold ease-in-out duration-300" href="#szpule">szpule</a>
+            </li>
+            <li class="me-3">
+                <a class="font-light text-xl hover:font-bold ease-in-out duration-300" href="#ringi">ringi</a>
+            </li>
+            <li class="me-3">
+                <a class="font-light text2xl hover:font-bold ease-in-out duration-300" href="#kontakt">kontakt</a>
+            </li>
+        </ul>
+        <ul class="flex text-sm mt-2">
+            <li class="me-3">
+                <a href="index.html">Polski</a>
+            </li>
+            <li class="me-3">
+                <a href="index_cz.html">Čeština</a>
+            </li>
+            <li class="me-3">
+                <a href="index_en.html">English</a>
+            </li>
+        </ul>
     </div>
-    <nav class="navbar fixed-top shadow" style="background: rgba(6, 24, 106, 0.95); backdrop-filter: blur(5px); border-bottom: 1px solid rgba(255,255,255,0.1);">        
-        <div class="container">
-            <a class="navbar-brand text-white fw-bold fs-1 me-5 p-2" href="#"><b>OLPLAST</b></a>
-            <ul class="navbar-nav flex-row p-2">
-                <li class="nav-item me-3">
-                    <a class="text-decoration-none text-white fs-4" href="#wieszaki">Wieszaki</a>
-                </li>
-                <li class="nav-item me-3">
-                    <a class="text-decoration-none text-white fs-4" href="#szpule">Szpule</a>
-                </li>
-                <li class="nav-item me-3">
-                    <a class="text-decoration-none text-white fs-4" href="#ringi">Ringi</a>
-                </li>
-                <li class="nav-item me-3">
-                    <a class="text-decoration-none text-white fs-4" href="#kontakt">Kontakt</a> 
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <div>
-            <br> <br> <br> <br>
-            <header class="text-center mt-5 mb-4">
-                <h1 class="fw-bold" style="color: #000000; font-size: 2.5rem;">
-                    Producent wieszaków i szpul z tworzyw oryginalnych i z recyklingu
-                </h1>
-                <p class="lead text-secondary">Solidne produkty z Błażkowej - obsługa hurtowa na całą Polskę</p>
-            </header>
-            <h2 id="wieszaki" class="mt-4 p-2"><b>Wieszaki</b></h2>
-            <p class="p-2 fs-5">Dostarczamy wytrzymałe wieszaki pościelowe i odzieżowe, wykonane z wysokiej klasy tworzyw pierwotnych oraz regranulatów. Nasze produkty łączą idealnie gładkie wykończenie z wysoką odpornością na pękanie. Dzięki ekologicznemu procesowi produkcji stanowią doskonały wybór dla hurtowni, producentów tekstyliów, sklepów oraz pralni.</p>
-            <hr>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-12 p-3">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="static/o1.webp" class="rounded-3 p-1" alt="Wieszak plastikowy O1 - producent OLPLAST" style="width: 100%;">
-                        <div class="p-2">
-                            <b class="fs-3">Wieszak O1</b>
-                            <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Prostokątny uchwyt do lekkich koców i narzut, zapewniający estetyczną ekspozycję bez zagnieceń materiału</p>
-                            <p>
-                                Wymiary wewnętrzne:<br>
-                                Szerokość: <b>230mm</b><br>
-                                Wysokość: <b>45mm</b>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+</nav>
+<div class="container w-vw-80 mx-auto px-4 sm:px-0">
+    <div class="my-20 p-5 rounded-3xl bg-gray-800/50 border border-dashed border-gray-500">
+        <header class="text-start">
+            <h1 class="font-extrabold text-5xl">
+                Producent wieszaków i szpul z tworzyw oryginalnych oraz z recyklingu
+            </h1>
+            <p class="mt-5 text-2xl">Solidne produkty z Błażkowej, międzynarodowa obsługa hurtowa.</p>
+            <p class="mt-5 text-2xl">Lokalizacja: Błażkowa 44a 58-420 Lubawka (województwo dolnośląskie)</p>
+            <p class="mt-5 text-2xl">Telefon: <span class="font-extrabold">+48 504 639 001</span>  </p>
+            <p class="mt-5 text-2xl">Email: <span class="font-extrabold">olplast@vp.pl</span> </p>
+        </header>
+    </div>
 
-            <div class="col-lg-4 col-12 p-3">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="static/o2.webp" class="rounded-3 p-1" alt="Wieszak plastikowy O2 - producent OLPLAST" style="width: 100%;">
-                        <div class="p-2">
-                            <b class="fs-3">Wieszak O2</b>
-                            <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Mała zawieszka do ręczników kąpielowych i zestawów kuchennych, idealna do pakowania w komplety.</p>
-                            <p>
-                                Wymiary wewnętrzne:<br>
-                                Szerokość: <b>180mm</b><br>
-                                Wysokość: <b>20mm</b>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-12 p-3">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="static/o3.webp" class="rounded-3 p-1" alt="Wieszak plastikowy O3 - producent OLPLAST" style="width: 100%;">
-                        <div class="p-2">
-                            <b class="fs-3">Wieszak O3</b>
-                            <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Solidny, szeroki wieszak na ciężkie koce i pledy, wykonany z wytrzymałego czarnego regranulatu.</p>
-                            <p>
-                                Wymiary wewnętrzne:<br>
-                                Szerokość: <b>250mm</b><br>
-                                Wysokość: <b>50mm</b><br>
-                                <br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-12 p-3">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="static/o4.webp" class="rounded-3 p-1" alt="Wieszak plastikowy O4 - producent OLPLAST" style="width: 100%;">
-                        <div class="p-2">
-                            <b class="fs-3">Wieszak O4</b>
-                            <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Klasyczna rama na np. ręczniki hotelowe, stabilnie utrzymująca grubą strukturę frotte.</p>
-                            <p>
-                                Wymiary wewnętrzne:<br>
-                                Szerokość: <b>240mm</b><br>
-                                Wysokość: <b>50mm</b><br>
-                                <br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12 p-3">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="static/o5.webp" class="rounded-3 p-1" alt="Wieszak plastikowy O5 - producent OLPLAST" style="width: 100%;">
-                        <div class="p-2">
-                            <b class="fs-3">Wieszak O5</b>
-                            <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Niskoprofilowy uchwyt do cienkich kocyków dziecięcych lub poszewek dekoracyjnych.</p> <br>
-                            <p>
-                                Wymiary wewnętrzne:<br>
-                                Szerokość: <b>240mm</b><br>
-                                Wysokość: <b>30mm</b>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-12 p-3">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="static/o6.webp" class="rounded-3 p-1" alt="Wieszak plastikowy O6 - producent OLPLAST" style="width: 100%;">
-                        <div class="p-2">
-                            <b class="fs-3">Wieszak O6</b>
-                            <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Sztywna zawieszka do tekstyliów domowych o gładkiej strukturze, odporna.</p> <br>
-                            <p>
-                                Wymiary wewnętrzne:<br>
-                                Szerokość: <b>180mm</b><br>
-                                Wysokość: <b>40mm</b>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-12 p-3">
-                <div class="card shadow-lg">
-                    <div class="card-body">
-                        <img src="static/o7.webp" class="rounded-3 p-1" alt="Wieszak plastikowy O7 - producent OLPLAST" style="width: 100%;">
-                        <div class="p-2">
-                            <b class="fs-3">Wieszak O7</b>
-                            <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Najmniejszy model uchwytu, dedykowany do ściereczek, mniejszych ręczników lub próbek materiałów. <br></p>
-                            <p>
-                                Wymiary wewnętrzne:<br>
-                                Szerokość: <b>160mm</b><br>
-                                Wysokość: <b>15mm</b>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <div>
-        <h2 id="szpule" class="mt-5 p-2"><b>Szpule</b></h2>
-        <p class="p-2 fs-5">Szpule przemysłowe OLPLAST to gwarancja stabilności nawoju. Wykonane metodą wtrysku z tworzyw sztucznych, sprawdzają się przy produkcji różnego typu łańcuchów i sznurków oraz w przemyśle tekstylnym. Oferujemy różne średnice zewnętrzne i szerokości ringu, dostosowane do wymagań technicznych klienta.</p> 
+    <div class="my-5 grid gap-3">
+        <h2 id="wieszaki" class="text-4xl font-extrabold"><b>Wieszaki</b></h2>
+        <p class="text-l">Dostarczamy wytrzymałe wieszaki pościelowe i odzieżowe, wykonane z wysokiej klasy tworzyw
+            pierwotnych oraz regranulatów. Nasze produkty łączą idealnie gładkie wykończenie z wysoką odpornością na
+            pękanie. Dzięki ekologicznemu procesowi produkcji stanowią doskonały wybór dla hurtowni, producentów
+            tekstyliów, sklepów oraz pralni.</p>
         <hr>
     </div>
 
-    <div class="row">
-        <div class="col-lg-4 col-12 p-3"> 
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        <div class="col-span-1">
             <div class="card shadow-lg">
                 <div class="card-body">
-                    <div id="sz1" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz11.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz12.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz1" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz1" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
+                    <img src="static/o1.webp" class="rounded-2xl p-1" alt="Wieszak plastikowy O1 - producent OLPLAST"
+                         style="width: 100%;">
+                    <div class="p-2">
+                        <b class="fs-3">Wieszak O1</b>
+                        <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Prostokątny uchwyt do lekkich
+                            koców i narzut, zapewniający estetyczną ekspozycję bez zagnieceń materiału</p>
+                        <p>
+                            Wymiary wewnętrzne:<br>
+                            Szerokość: <b>230mm</b><br>
+                            Wysokość: <b>45mm</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg col-span-1">
+            <div class="card-body">
+                <img src="static/o2.webp" class="rounded-2xl p-1" alt="Wieszak plastikowy O2 - producent OLPLAST"
+                     style="width: 100%;">
+                <div class="p-2">
+                    <b class="fs-3">Wieszak O2</b>
+                    <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Mała zawieszka do ręczników
+                        kąpielowych i zestawów kuchennych, idealna do pakowania w komplety.</p>
+                    <p>
+                        Wymiary wewnętrzne:<br>
+                        Szerokość: <b>180mm</b><br>
+                        Wysokość: <b>20mm</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg col-span-1">
+            <div class="card-body">
+                <img src="static/o3.webp" class="rounded-2xl p-1" alt="Wieszak plastikowy O3 - producent OLPLAST"
+                     style="width: 100%;">
+                <div class="p-2">
+                    <b class="fs-3">Wieszak O3</b>
+                    <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Solidny, szeroki wieszak na
+                        ciężkie koce i pledy, wykonany z wytrzymałego czarnego regranulatu.</p>
+                    <p>
+                        Wymiary wewnętrzne:<br>
+                        Szerokość: <b>250mm</b><br>
+                        Wysokość: <b>50mm</b><br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg col-span-1">
+            <div class="card-body">
+                <img src="static/o4.webp" class="rounded-2xl p-1" alt="Wieszak plastikowy O4 - producent OLPLAST"
+                     style="width: 100%;">
+                <div class="p-2">
+                    <b class="fs-3">Wieszak O4</b>
+                    <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Klasyczna rama na np. ręczniki
+                        hotelowe, stabilnie utrzymująca grubą strukturę frotte.</p>
+                    <p>
+                        Wymiary wewnętrzne:<br>
+                        Szerokość: <b>240mm</b><br>
+                        Wysokość: <b>50mm</b><br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg col-span-1">
+            <div class="card-body">
+                <img src="static/o5.webp" class="rounded-2xl p-1" alt="Wieszak plastikowy O5 - producent OLPLAST"
+                     style="width: 100%;">
+                <div class="p-2">
+                    <b class="fs-3">Wieszak O5</b>
+                    <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Niskoprofilowy uchwyt do cienkich
+                        kocyków dziecięcych lub poszewek dekoracyjnych.</p> <br>
+                    <p>
+                        Wymiary wewnętrzne:<br>
+                        Szerokość: <b>240mm</b><br>
+                        Wysokość: <b>30mm</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg col-span-1">
+            <div class="card-body">
+                <img src="static/o6.webp" class="rounded-2xl p-1" alt="Wieszak plastikowy O6 - producent OLPLAST"
+                     style="width: 100%;">
+                <div class="p-2">
+                    <b class="fs-3">Wieszak O6</b>
+                    <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Sztywna zawieszka do tekstyliów
+                        domowych o gładkiej strukturze, odporna.</p> <br>
+                    <p>
+                        Wymiary wewnętrzne:<br>
+                        Szerokość: <b>180mm</b><br>
+                        Wysokość: <b>40mm</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg col-span-1">
+            <div class="card-body">
+                <img src="static/o7.webp" class="rounded-2xl p-1" alt="Wieszak plastikowy O7 - producent OLPLAST"
+                     style="width: 100%;">
+                <div class="p-2">
+                    <b class="fs-3">Wieszak O7</b>
+                    <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Najmniejszy model uchwytu, dedykowany
+                        do ściereczek, mniejszych ręczników lub próbek materiałów. <br></p>
+                    <p>
+                        Wymiary wewnętrzne:<br>
+                        Szerokość: <b>160mm</b><br>
+                        Wysokość: <b>15mm</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-22 grid gap-3">
+        <h2 id="szpule" class="text-4xl font-extrabold"><b>Szpule</b></h2>
+        <p class="p-2 fs-5">Szpule przemysłowe OLPLAST to gwarancja stabilności nawoju. Wykonane metodą wtrysku z
+            tworzyw
+            sztucznych, sprawdzają się przy produkcji różnego typu łańcuchów i sznurków oraz w przemyśle tekstylnym.
+            Oferujemy różne średnice zewnętrzne i szerokości ringu, dostosowane do wymagań technicznych klienta.</p>
+        <hr>
+    </div>
+
+    <div class="grid gap-5 grid-cols-1 sm:grid-cols-4 mt-5">
+
+        <div class="col-span-1">
+            <div class="card">
+                <div class="card-body">
+                    <div class="flex rounded-2xl overflow-scroll">
+
+                        <img src="static/sz11.webp"
+                             alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
+
+                        <img src="static/sz12.webp"
+                             alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
+
+                    </div>
                     <div class="p-2">
                         <b class="fs-3">Szpula 1</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Uniwersalna szpula do nawoju lamówek, tasiemek wykończeniowych oraz sznurków do koców. <br></p>
+                        <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Uniwersalna szpula do nawoju
+                            lamówek,
+                            tasiemek wykończeniowych oraz sznurków do koców. <br></p>
                         <p>
                             Wymiary:<br>
                             Średnica zewnętrzna: <b>85mm</b><br>
@@ -224,388 +237,269 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz2" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz21.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz22.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz2" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz2" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 2</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Model z wąskim ringiem, ułatwiający precyzyjne nawijanie nici szwalniczych i gum pasmanteryjnych. <br></p>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>85mm</b><br>
-                            Średnica wewnętrzna: <b>65mm</b><br>
-                            Szerokość ringu: <b>25mm</b>
-                        </p>
-                    </div>
+        <div class="col-span-1">
+            <div class="card">
+                <div class="flex overflow-scroll rounded-2xl">
+                    <img src="static/sz21.webp"
+                         alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
+
+                    <img src="static/sz22.webp"
+                         alt="Szpula plastikowa przemysłowa 65mm - Dolny Śląsk">
+                </div>
+                <div class="p-2">
+                    <b class="fs-3">Szpula 2</b>
+                    <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Model z wąskim ringiem, ułatwiający
+                        precyzyjne nawijanie nici szwalniczych i gum pasmanteryjnych. <br></p>
+                    <p>
+                        Wymiary:<br>
+                        Średnica zewnętrzna: <b>85mm</b><br>
+                        Średnica wewnętrzna: <b>65mm</b><br>
+                        Szerokość ringu: <b>25mm</b>
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz3" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz31.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 55mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz32.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 55mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz3" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz3" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 3</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Szpula z dużym rdzeniem, chroniąca delikatne taśmy ozdobne przed trwałym odkształceniem. <br></p>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>85mm</b><br>
-                            Średnica wewnętrzna: <b>55mm</b><br>
-                            Szerokość ringu: <b>40mm</b>
-                        </p>
-                    </div>
-                </div>
+        <div class="col-span-1">
+            <div class="flex rounded-2xl overflow-scroll">
+                <img src="static/sz31.webp"
+                     alt="Szpula plastikowa przemysłowa 55mm - Dolny Śląsk">
+
+                <img src="static/sz32.webp"
+                     alt="Szpula plastikowa przemysłowa 55mm - Dolny Śląsk">
+            </div>
+            <div class="p-2">
+                <b class="fs-3">Szpula 3</b>
+                <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Szpula z dużym rdzeniem,
+                    chroniąca
+                    delikatne taśmy ozdobne przed trwałym odkształceniem. <br></p>
+                <p>
+                    Wymiary:<br>
+                    Średnica zewnętrzna: <b>85mm</b><br>
+                    Średnica wewnętrzna: <b>55mm</b><br>
+                    Szerokość ringu: <b>40mm</b>
+                </p>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz4" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz41.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 45mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz42.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 45mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz4" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz4" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 4</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Wariant o dużej pojemności, zaprojektowany dla producentów nici i tasiemek do wykańczania ręczników.</p>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>85mm</b><br>
-                            Średnica wewnętrzna: <b>45mm</b><br>
-                            Szerokość ringu: <b>40mm</b>
-                        </p>
-                    </div>
-                </div>
+        <div class="col-span-1">
+            <div class="flex overflow-hidden rounded-2xl">
+                <img src="static/sz41.webp"
+                     alt="Szpula plastikowa przemysłowa 45mm - Dolny Śląsk">
+
+                <img src="static/sz42.webp"
+                     alt="Szpula plastikowa przemysłowa 45mm - Dolny Śląsk">
+            </div>
+
+            <div class="p-2">
+                <b class="fs-3">Szpula 4</b>
+                <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Wariant o dużej pojemności,
+                    zaprojektowany dla producentów nici i tasiemek do wykańczania ręczników.</p>
+                <p>
+                    Wymiary:<br>
+                    Średnica zewnętrzna: <b>85mm</b><br>
+                    Średnica wewnętrzna: <b>45mm</b><br>
+                    Szerokość ringu: <b>40mm</b>
+                </p>
             </div>
         </div>
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz5" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz51.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 180mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz52.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 180mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz5" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz5" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 5</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Przemysłowa czarna szpula do ciężkich sznurów technicznych i grubych nici tapicerskich. <br></p> <br>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>180mm</b><br>
-                            <br><br>
-                        </p>
-                    </div>
-                </div>
+        <div class="col-span-1">
+            <div class="flex overflow-scroll rounded-2xl">
+                <img src="static/sz51.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 180mm - Dolny Śląsk">
+
+                <img src="static/sz52.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 180mm - Dolny Śląsk">
+            </div>
+
+            <div class="p-2">
+                <b class="fs-3">Szpula 5</b>
+                <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Przemysłowa czarna szpula do
+                    ciężkich
+                    sznurów technicznych i grubych nici tapicerskich. <br></p> <br>
+                <p>
+                    Wymiary:<br>
+                    Średnica zewnętrzna: <b>180mm</b><br>
+                    <br><br>
+                </p>
             </div>
         </div>
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz6" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz61.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 125mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz62.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 125mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz6" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz6" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 6 P125</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Standardowa szpula techniczna P125 do maszynowego nawoju materiałów pasmanteryjnych. <br></p> <br>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>125mm</b><br>
-                            <br><br>
-                        </p>
-                    </div>
-                </div>
+        <div class="col-span-1">
+            <div class="flex overflow-hidden rounded-2xl">
+                <img src="static/sz61.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 125mm - Dolny Śląsk">
+
+                <img src="static/sz62.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 125mm - Dolny Śląsk">
+            </div>
+
+            <div class="p-2">
+                <b class="fs-3">Szpula 6 P125</b>
+                <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Standardowa szpula techniczna
+                    P125 do
+                    maszynowego nawoju materiałów pasmanteryjnych. <br></p> <br>
+                <p>
+                    Wymiary:<br>
+                    Średnica zewnętrzna: <b>125mm</b><br>
+                    <br><br>
+                </p>
             </div>
         </div>
-    </div> 
-    <div class="row">
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz7" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz71.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 100mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz72.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 100mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz7" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz7" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 7 P100</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Wytrzymały model P100, idealny do przechowywania i transportu taśm poliestrowych. <br></p>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>100mm</b><br>
-                            <br><br>
-                        </p>
-                    </div>
-                </div>
+        <div class="col-span-1">
+
+
+            <div class="flex overflow-scroll rounded-2xl">
+                <img src="static/sz71.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 100mm - Dolny Śląsk">
+
+                <img src="static/sz72.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 100mm - Dolny Śląsk">
+            </div>
+
+            <div class="p-2">
+                <b class="fs-3">Szpula 7 P100</b>
+                <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Wytrzymały model P100, idealny do
+                    przechowywania i transportu taśm poliestrowych. <br></p>
+                <p>
+                    Wymiary:<br>
+                    Średnica zewnętrzna: <b>100mm</b><br>
+                    <br><br>
+                </p>
             </div>
         </div>
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz8" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz81.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz82.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz8" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz8" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 8</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Biała szpula o gładkich krawędziach, bezpieczna dla satynowych wstążek i jedwabnych tasiemek. <br></p>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>135mm</b><br>
-                            Średnica wewnętrzna: <b>58mm</b><br>
-                            Szerokość ringu: <b>28mm</b>
-                        </p>
-                    </div>
-                </div>
+        <div class="col-span-1">
+            <div class="flex overflow-scroll rounded-2xl">
+                <img src="static/sz81.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
+
+                <img src="static/sz82.webp" class="d-block w-100 rounded-2"
+                     alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
+            </div>
+            <div class="p-2">
+                <b class="fs-3">Szpula 8</b>
+                <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Biała szpula o gładkich
+                    krawędziach,
+                    bezpieczna dla satynowych wstążek i jedwabnych tasiemek. <br></p>
+                <p>
+                    Wymiary:<br>
+                    Średnica zewnętrzna: <b>135mm</b><br>
+                    Średnica wewnętrzna: <b>58mm</b><br>
+                    Szerokość ringu: <b>28mm</b>
+                </p>
             </div>
         </div>
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="sz9" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/sz91.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/sz92.webp" class="d-block w-100 rounded-2" alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#sz9" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#sz9" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Szpula 9</b>
-                       <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Kompaktowa szpula pasmanteryjna, sprawdzająca się w sprzedaży detalicznej i hurtowej. <br></p>
-                        <p>
-                            Wymiary:<br>
-                            Średnica zewnętrzna: <b>115mm</b><br>
-                            Średnica wewnętrzna: <b>58mm</b><br>
-                            Szerokość ringu: <b>18mm</b>
-                        </p>
-                    </div>
-                </div>
+        <div class="col-span-1">
+            <div class="flex overflow-scroll rounded-2xl">
+                <img src="static/sz91.webp"
+                     alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
+                <img src="static/sz92.webp"
+                     alt="Szpula plastikowa przemysłowa 58mm - Dolny Śląsk">
+            </div>
+            <div class="p-2">
+                <b class="fs-3">Szpula 9</b>
+                <p class="mt-1 mb-2 text-secondary" style="font-size: 0.9rem;">Kompaktowa szpula pasmanteryjna,
+                    sprawdzająca się w sprzedaży detalicznej i hurtowej. <br></p>
+                <p>
+                    Wymiary:<br>
+                    Średnica zewnętrzna: <b>115mm</b><br>
+                    Średnica wewnętrzna: <b>58mm</b><br>
+                    Szerokość ringu: <b>18mm</b>
+                </p>
             </div>
         </div>
-    </div>
-    <div>
-        <h2 id="ringi" class="mt-5 p-2"><b>Ringi</b></h2>
-        <hr>
-    </div>
-    <div class="row">
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="r10" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/r101.webp" class="d-block w-100 rounded-2" alt="Ring do szpuli 58mm - OLPLAST">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/r102.webp" class="d-block w-100 rounded-2" alt="Ring do szpuli 58mm - OLPLAST">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#r10" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#r10" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Ring 10</b>
-                        <p>
-                            Wymiary:<br>
-                            Średnica: <b>58mm</b><br>
-                            Szerokość: <b>18mm</b><br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-12 p-3">
-            <div class="card shadow-lg">
-                <div class="card-body">
-                    <div id="r11" class="carousel slide p-1">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="static/r111.webp" class="d-block w-100 rounded-2" alt="Ring do szpuli 58mm - OLPLAST">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="static/r112.webp" class="d-block w-100 rounded-2" alt="Ring do szpuli 58mm - OLPLAST">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#r11" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#r11" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
-                    <div class="p-2">
-                        <b class="fs-3">Ring 11</b>
-                        <p>
-                            Wymiary:<br>
-                            Średnica: <b>58mm</b><br>
-                            Szerokość: <b>28mm</b><br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-4"></div>
-    </div>
-    <div class="row justify-content-center align-items-center">
-        <h2 id="kontakt" class="mt-5 p-2"><b>Kontakt</b></h2>
-        <hr>
-        <div class="card shadow-lg rounded-4 mt-3">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-6 col-12 p-3">
-                        <div id="kontakt" class="p-3 rounded">
-                            <h3>Kontakt i Zamówienia</h3>
-                            <p><b>Produkcja:</b> Błażkowa (koło Lubawki), woj. dolnośląskie</p>
-                            <p><b>Telefon:</b> +48 504 639 001</p>
-                            <p><b>Email:</b> olplast@vp.pl</p>
-                            <p><b>Dostawa:</b> Przesyłki kurierskie i paletowe na terenie całego kraju lub odbiór osobisty w zakładzie.</p>
-                        </div>
-                        <div class="row p-3">
-                            <div class="col-12">
-                                <h3>Dlaczego OLPLAST?</h3>
-                                <p>Jesteśmy lokalnym, polskim producentem z Błażkowej. Wybierając nasze produkty, kupujesz bezpośrednio u źródła - bez pośredników i zbędnych marż. Każdy wieszak i każda szpula powstaje z dbałością o jakość, przy zachowaniu pełnej dbałości o ekologię dzięki wykorzystaniu tworzyw z recyklingu.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <iframe class="rounded-4 p-3" style="max-width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.772169781466!2d15.984154277324505!3d50.74271437164955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ef1cf06047cdf%3A0x966005f451457cb5!2sOlplast!5e0!3m2!1spl!2spl!4v1776193102967!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br> <br> <br> <br>
-    <footer class="justify-content-center text-center  mt-5">
-        <p><strong>Firma Produkcyjno-Handlowa OLPLAST Grzegorz Szczepaniak<br> <br>Przetwórstwo Tworzyw Sztucznych</strong></p>
-        <p>Błażkowa 44a, 58-420 Lubawka (Dolny Śląsk)</p>
-        <p>Tel: +48 504 639 001</p>
-        <p>Email: olplast@vp.pl</p>
-    </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <div>
+        <h2 id="ringi" class="mt-5 text-4xl font-bold p-2"><b>Ringi</b></h2>
+        <hr>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 gap-5 mt-5">
+        <div class="col-span-1">
+
+            <div class="flex overflow-scroll rounded-2xl">
+                <img src="static/r101.webp" class="d-block w-100 rounded-2"
+                     alt="Ring do szpuli 58mm - OLPLAST">
+
+                <img src="static/r102.webp" class="d-block w-100 rounded-2"
+                     alt="Ring do szpuli 58mm - OLPLAST">
+            </div>
+            <div class="p-2">
+                <b class="fs-3">Ring 10</b>
+                <p>
+                    Wymiary:<br>
+                    Średnica: <b>58mm</b><br>
+                    Szerokość: <b>18mm</b><br>
+                </p>
+            </div>
+
+        </div>
+        <div class="col-span-1">
+            <div class="flex overflow-scroll rounded-2xl">
+                <img src="static/r111.webp" class="d-block w-100 rounded-2"
+                     alt="Ring do szpuli 58mm - OLPLAST">
+
+                <img src="static/r112.webp" class="d-block w-100 rounded-2"
+                     alt="Ring do szpuli 58mm - OLPLAST">
+            </div>
+
+            <div class="p-2">
+                <b class="fs-3">Ring 11</b>
+                <p>
+                    Wymiary:<br>
+                    Średnica: <b>58mm</b><br>
+                    Szerokość: <b>28mm</b><br>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="container w-vw-80 mx-auto px-4 sm:px-0">
+    <h2 id="kontakt" class="font-bold text-2xl p-2 mt-12"><b>Kontakt i zamówienia</b></h2>
+    <hr>
+    <div class="card shadow-lg rounded-4 mt-3">
+        <div class="card-body">
+            <div class="grid grid-cols-2">
+                <div class="col-span-2 sm:col-span-1 p-3">
+                    <div id="kontakt" class="p-3 rounded grid gap-3">
+                        <p><b>Produkcja:</b> Błażkowa (koło Lubawki), woj. dolnośląskie</p>
+                        <p><b>Telefon:</b> +48 504 639 001</p>
+                        <p><b>Email:</b> olplast@vp.pl</p>
+                        <p><b>Dostawa:</b> Przesyłki kurierskie i paletowe na terenie całego kraju lub odbiór osobisty w
+                            zakładzie.</p>
+
+                        <h3 class="font-bold text-2xl mt-5">Dlaczego OLPLAST?</h3>
+                        <p>Jesteśmy lokalnym, polskim producentem z Błażkowej. Wybierając nasze produkty, kupujesz
+                            bezpośrednio u źródła - bez pośredników i zbędnych marż. Każdy wieszak i każda szpula
+                            powstaje z dbałością o jakość, przy zachowaniu pełnej dbałości o ekologię dzięki
+                            wykorzystaniu tworzyw z recyklingu.</p>
+                    </div>
+                </div>
+                <div class="justify-center col-span-2 sm:col-span-1 p-3">
+                    <iframe class="rounded-3xl p-3" style="max-width: 100%;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.772169781466!2d15.984154277324505!3d50.74271437164955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ef1cf06047cdf%3A0x966005f451457cb5!2sOlplast!5e0!3m2!1spl!2spl!4v1776193102967!5m2!1spl!2spl"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="justify-content-center text-center p-12 bg-gray-950/50">
+    <p><strong>Firma Produkcyjno-Handlowa OLPLAST Grzegorz Szczepaniak<br> <br>Przetwórstwo Tworzyw Sztucznych</strong>
+    </p>
+    <p>Błażkowa 44a, 58-420 Lubawka (Dolny Śląsk)</p>
+    <p>Tel: +48 504 639 001</p>
+    <p>Email: olplast@vp.pl</p>
+</footer>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 </html>
